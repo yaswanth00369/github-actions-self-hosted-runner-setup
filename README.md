@@ -84,7 +84,7 @@ sudo ~/actions-runner/svc.sh uninstall
 ### 3. Remove the runner configuration from GitHub
 
 ```bash
-sudo /actions-runner/config.sh remove --token <YOUR_REGISTRATION_TOKEN>
+sudo ~/actions-runner/config.sh remove --token <YOUR_REGISTRATION_TOKEN>
 ```
 🔐 You can regenerate the token from:
 GitHub → Org → Settings → Actions → Runners → New self-hosted runner → Linux
